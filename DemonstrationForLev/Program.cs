@@ -9,7 +9,7 @@ namespace DemonstrationForLev
             /* 
              * 
              * 
-             * 
+             * якась нова хуйня
              * 
              * 
              * soem comment
