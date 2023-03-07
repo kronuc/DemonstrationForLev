@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemonstrationForLev.View.Abstraction;
+using DemonstrationForLev.View.Implementation;
 
 namespace DemonstrationForLev
 {
@@ -6,17 +7,9 @@ namespace DemonstrationForLev
     {
         static void Main(string[] args)
         {
-            /* 
-             * 
-             * 
-             * якась нова хуйня
-             * 
-             * 
-             * soem comment
-             * */
-            var a = 1;
+            IView view = new ConsoleView();
+            view.StartView();
         }
-
     }
 }
 
